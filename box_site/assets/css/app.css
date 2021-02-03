@@ -1,0 +1,147 @@
+.pink {
+    background-color: pink;
+}
+
+body {
+    background-color: #fff;
+}
+
+.grey {
+    background-color: rgb(150,150,150);
+}
+
+.darkgrey {
+    background-color: #323232;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.paleblue {
+    background-color: paleturquoise;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.welcome_header {
+    height: 50px;
+}
+
+.welcome_text, .account_info {
+    height: 50px;
+}
+
+.logo_header, .logo {
+    height: 90px;
+}
+
+.search {
+    height: 30px;
+}
+
+.cart_icon {
+    height: 45px;
+}
+
+.category_header, .category_nav {
+    height: 60px;
+}
+
+.callout {
+	border: none;
+}
+
+.hideAll {
+    display: none;
+}
+
+.splash {
+    display: block;
+}
+
+.slider, .img_slider {
+    height: 325px;
+    margin: 0;
+}
+
+.info_container, .info {
+    height: 75px;
+}
+
+.weekly_special, .categories {
+    margin-top: 50px;
+}
+
+.weekly_special .title, .categories .title {
+    margin-bottom: 40px;
+}
+
+.item_container {
+    height: 490px;
+    padding: 12px;
+    margin-right: 20px;
+}
+
+.item_img {
+    height: 200px;
+}
+
+.item_info {
+    height: 260px;
+}
+
+.category {
+    height: 320px;
+    margin-bottom: 30px;
+}
+
+.newsletter {
+    height: 150px;
+}
+
+.newsletter_info, .newsletter_email {
+    height: 40px;
+}
+
+.heading {
+    margin-top: 50px;
+}
+
+.cookie_trail {
+    margin-bottom: 30px;
+}
+
+.product_items {
+    margin-top: 50px;
+}
+
+.load_more {
+    height: 50px;
+    margin-bottom: 110px;
+}
+
+.my_cart {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.checkout_container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.checkout {
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    height: 95px;
+}
