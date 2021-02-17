@@ -1,0 +1,605 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Groceries</title>
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="https://use.typekit.net/atg0gfp.css">
+</head>
+
+<body>
+    <header>
+            <div class="grid-x welcome_header">
+                <p class="cell large-3 welcome_text">Welcome, <span>SIGN IN</span></p>
+                <div class="cell large-4 large-offset-4 account_info">
+                    <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+                        <li><a href="#">My Account</a>
+                            <ul class="vertical menu">
+                                <li><a href="#">Sign Up</a></li>
+                                <li><a href="#">Sign In</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">My Favourites</a></li>
+                        <li><a href="#">My List</a></li>
+                        <li><a href="#">Need Help?</a>
+                            <ul class="vertical menu">
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-x align-middle logo_header">
+                <div class="cell large-2 logo">
+                    <img src="./assets/images/logo_new.svg"/>
+                </div>
+                <div class="cell large-4">
+                    <div class="search">
+                        <input type="text" class="search_container" placeholder="Search">
+                        <div id="search_btn">
+                            <img src="./assets/images/search.svg"/>
+                        </div>
+                    </div>
+                </div>
+                <span class="home_delivery"><p>Home Delivery</p></span>
+                <div class="cell large-1 large-offset-2 cart_icon">
+                    <div id="cart_icon">
+                        <img src="./assets/images/shopping_cart.svg"/>
+                        <div class="cart_count">0</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x align-center align-middle category_header">
+                <div class="cell large-6 category_nav">
+                    <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+                        <li><a href="#/products/">Vegeatbles and Fruits</a>
+                            <ul class="vertical menu">
+                                <li><a href="#/products/">Vegetables</a></li>
+                                <li><a href="#/products/">Fruits</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#/products/">Meat and Seafood</a>
+                            <ul class="vertical menu">
+                                <li><a href="#/products/">Meat</a></li>
+                                <li><a href="#/products/">Seafood</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#/products/">Bakery</a>
+                            <ul class="vertical menu">
+                                <li><a href="#/products/">Cakes</a></li>
+                                <li><a href="#/products/">Cookies</a></li>
+                                <li><a href="#/products/">Biscuits</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#/products/">Deli</a>
+                            <ul class="vertical menu">
+                                <li><a href="#/products/">Deli Cheese</a></li>
+                                <li><a href="#/products/">Deli Meats</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#/products/">Dairy</a>
+                            <ul class="vertical menu">
+                                <li><a href="#/products/">Milk</a></li>
+                                <li><a href="#/products/">Cheese</a></li>
+                                <li><a href="#/products/">Yogurt</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#/products/">Frozen</a>
+                            <ul class="vertical menu">
+                                <li><a href="#/products/">Ice Cream</a></li>
+                                <li><a href="#/products/">Frozen Fruits</a></li>
+                                <li><a href="#/products/">Frozen Vegetables</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </header>
+
+    <main id="app">
+        <div class="grid-x splash_slider hideAll">
+            <div class="cell large-12 img_slider">
+                <img src="./assets/images/slider1.jpg"/>
+                <h1 class="slider_heading">Get a Fresh <span><h1 class="slider_heading">Start</h1></span></h1>
+                <div class="slider_para">
+                    <p>Start you day fresh with freshest and sweetest Vegeatbles, Fruits or Meat.</p>
+                </div>
+            </div>
+            <div class="cell large-12 img_slider">
+                <img src="./assets/images/slider2.jpg"/>
+                <h1 class="slider_heading">Save Incredible <span><h1 class="slider_heading">on Gardien</h1></span></h1>
+                <div class="slider_para">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-x info_container hideAll">
+            <div class="cell large-12 general_info">
+                <p class="info_text_bold">Same day delivery 9am - 9pm. check your area for availability.</p>
+                <p class="info_text">deliveries may take time due to covid-19. <span class="info_covid">Read more about Covid-19 Updates.</span></p>
+            </div>
+        </div>
+        <article  class="grid-container splash hideAll">
+                <div class="grid-x">
+                    <div class="cell large-12">
+                        <h1 class="title">Weekly Special</h1>
+                    </div>
+                </div>
+                <div class="grid-x weekly_special align-center">
+                    <div class="large-2">
+                        <div class="card item_container">
+                            <div class="item_img">
+                                <img src="./assets/images/wProduct1.jpg"/>
+                            </div>
+                            <div class="card-section item_info">
+                                <div class="info">
+                                    <h2 class="item_brand">Striplion</h2>
+                                    <h2 class="item_name">Grilling Steak, AAA Grade</h2>
+                                    <p class="item_desc">AAA Grade, juicest Steak for grilling</p>
+                                    <h3 class="item_price">$17.62</h3>
+                                </div>
+                                <div class="item_count">
+                                    <div class="count_down">-</div>
+                                    <div class="count">1</div>
+                                    <div class="count_up">+</div>
+                                </div>
+                                <div class="add_cart">
+                                    <p class="add_text">Add to Cart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-2">
+                        <div class="card item_container darkgrey">
+                            <div class="item_img">
+                                <img src="./assets/images/wProduct2.jpg"/>
+                            </div>
+                            <div class="card-section item_info">
+                                <div class="info">
+                                    <h2 class="item_brand">Easy Groceries</h2>
+                                    <h2 class="item_name">Blueberry</h2>
+                                    <p class="item_desc">Freshly picked, blueberries from garden of eden.</p>
+                                    <h3 class="item_price">$3.99</h3>
+                                </div>
+                                <div class="item_count">
+                                    <div class="count_down">-</div>
+                                    <div class="count">1</div>
+                                    <div class="count_up">+</div>
+                                </div>
+                                <div class="add_cart">
+                                    <p class="add_text">Add to Cart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-2">
+                        <div class="card item_container darkgrey">
+                            <div class="item_img grey">
+                                <img src="./assets/images/wProduct3.jpg"/>
+                            </div>
+                            <div class="card-section item_info white">
+                                <div class="info">
+                                    <h2 class="item_brand">Clover Leaf</h2>
+                                    <h2 class="item_name">Tuna SkipJack Flacked In Water</h2>
+                                    <p class="item_desc">Clover White Tuna is creamy and white.</p>
+                                    <h3 class="item_price">$2.27</h3>
+                                </div>
+                                <div class="item_count">
+                                    <div class="count_down">-</div>
+                                    <div class="count">1</div>
+                                    <div class="count_up">+</div>
+                                </div>
+                                <div class="add_cart">
+                                    <p class="add_text">Add to Cart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-2">
+                        <div class="card item_container darkgrey">
+                            <div class="item_img grey">
+                                <img src="./assets/images/wProduct4.jpg"/>
+                            </div>
+                            <div class="card-section item_info white">
+                                <div class="info">
+                                    <h2 class="item_brand">Maple Leaf</h2>
+                                    <h2 class="item_name">Prime Extra Lean Ground Chicken</h2>
+                                    <p class="item_desc">Maple Leaf Prime Lean Ground Chicken is so versatile.</p>
+                                    <h3 class="item_price">$7.99</h3>
+                                </div>
+                                <div class="item_count">
+                                    <div class="count_down">-</div>
+                                    <div class="count">1</div>
+                                    <div class="count_up">+</div>
+                                </div>
+                                <div class="add_cart">
+                                    <p class="add_text">Add to Cart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" grid-x">
+                    <div class="cell large-12">
+                        <h1 class="title">Categories</h1>
+                    </div>
+                </div>
+                <div class="grid-x grid-margin-x categories">
+                    <div class="cell large-4 category products">
+                        <div class="category_img">
+                            <img src="./assets/images/category1.jpg"/>
+                        </div>
+                        <div class="callout category_name">
+                            <p class="category_text">Vegetables and Fruits</p>
+                        </div>
+                    </div>
+                    <div class="cell large-4 category products">
+                        <div class="category_img">
+                            <img src="./assets/images/category2.jpg"/>
+                        </div>
+                        <div class="callout category_name">
+                            <p class="category_text">Meat and Seafood</p>
+                        </div>
+                    </div>
+                    <div class="cell large-4 category products">
+                        <div class="category_img">
+                            <img src="./assets/images/category3.jpg"/>
+                        </div>
+                        <div class="callout category_name">
+                            <p class="category_text">Bakery</p>
+                        </div>
+                    </div>
+                    <div class="cell large-4 category products">
+                        <div class="category_img">
+                            <img src="./assets/images/category4.jpg"/>
+                        </div>
+                        <div class="callout category_name">
+                            <p class="category_text">Deli</p>
+                        </div>
+                    </div>
+                    <div class="cell large-4 category darkgrey products">
+                        <div class="category_img">
+                            <img src="./assets/images/category5.jpg"/>
+                        </div>
+                        <div class="callout category_name">
+                            <p class="category_text">Frozen</p>
+                        </div>
+                    </div>
+                    <div class="cell large-4 category">
+                        <div class="category_img">
+                            <img src="./assets/images/category6.jpg"/>
+                        </div>
+                        <div class="callout category_name">
+                            <p class="category_text">Dairy</p>
+                        </div>
+                    </div>
+                </div>
+        </article>
+
+        <!-- Product Page -->
+
+        <article class="grid-container products hideAll">
+            <div class="grid-x grid-padding-x heading">
+                <div class="cell large-12">
+                    <p class="cookie_trail">Vegetables and Fruits <span>></span>Fruits</p>
+                </div>
+                <div class="cell large-12">
+                    <h1 class="title">Fruits</h1>
+                </div>
+            </div>
+            <div class="grid-x product_items align-center">
+                <div class="cell large-2">
+                    <div class="card item_container darkgrey">
+                        <div class="item_img">
+                            <img src="./assets/images/product1.jpg"/>
+                        </div>
+                        <div class="card-section item_info">
+                            <div class="info">
+                                <h2 class="item_brand">Easy Groceries</h2>
+                                <h2 class="item_name">Straberries</h2>
+                                <p class="item_desc">Freshly picked, starwberries from garden of eden.</p>
+                                <h3 class="item_price">$5.99 <span>/454g</span></h3>
+                            </div>
+                            <div class="item_count">
+                                <div class="count_down">-</div>
+                                <div class="count">1</div>
+                                <div class="count_up">+</div>
+                            </div>
+                            <div class="add_cart">
+                                <p class="add_text">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell large-2">
+                    <div class="card item_container darkgrey">
+                        <div class="item_img">
+                            <img src="./assets/images/product2.jpg"/>
+                        </div>
+                        <div class="card-section item_info">
+                            <div class="info">
+                                <h2 class="item_brand">Lil Snappers</h2>
+                                <h2 class="item_name">Gala Apples</h2>
+                                <p class="item_desc">Freshly picked and packed, apples from garden of eden.</p>
+                                <h3 class="item_price">$5.99<span>/3lb Bag</span></h3>
+                            </div>
+                            <div class="item_count">
+                                <div class="count_down">-</div>
+                                <div class="count">1</div>
+                                <div class="count_up">+</div>
+                            </div>
+                            <div class="add_cart">
+                                <p class="add_text">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell large-2">
+                    <div class="card item_container">
+                        <div class="item_img">
+                            <img src="./assets/images/product3.jpg"/>
+                        </div>
+                        <div class="card-section item_info">
+                            <div class="info">
+                                <h2 class="item_brand">Easy Groceries</h2>
+                                <h2 class="item_name">Clementines Stem and Leaves</h2>
+                                <p class="item_desc">Fresh clementines from garden of eden.</p>
+                                <h3 class="item_price">$0.86<span>/100g</span></h3>
+                            </div>
+                            <div class="item_count">
+                                <div class="count_down">-</div>
+                                <div class="count">1</div>
+                                <div class="count_up">+</div>
+                            </div>
+                            <div class="add_cart">
+                                <p class="add_text">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell large-2">
+                    <div class="card item_container">
+                        <div class="item_img">
+                            <img src="./assets/images/product4.jpg"/>
+                        </div>
+                        <div class="card-section item_info">
+                            <div class="info">
+                                <h2 class="item_brand">Easy Groceries</h2>
+                                <h2 class="item_name">Bananas</h2>
+                                <p class="item_desc">Freshly picked, bananas from garden of eden.</p>
+                                <h3 class="item_price">$2.69<span>/3lb Bunch</span></h3>
+                            </div>
+                            <div class="item_count">
+                                <div class="count_down">-</div>
+                                <div class="count">1</div>
+                                <div class="count_up">+</div>
+                            </div>
+                            <div class="add_cart">
+                                <p class="add_text">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-x product_items align-center">
+                <div class="cell large-2">
+                    <div class="card item_container darkgrey">
+                        <div class="item_img">
+                            <img src="./assets/images/product5.jpg"/>
+                        </div>
+                        <div class="card-section item_info">
+                            <div class="info">
+                                <h2 class="item_brand">Easy Groceries</h2>
+                                <h2 class="item_name">Green Seedless Grapes</h2>
+                                <p class="item_desc">Fresh and sweet, grapes from garden of eden.</p>
+                                <h3 class="item_price">$10.86<span>/900-1.2Kg</span></h3>
+                            </div>
+                            <div class="item_count">
+                                <div class="count_down">-</div>
+                                <div class="count">1</div>
+                                <div class="count_up">+</div>
+                            </div>
+                            <div class="add_cart">
+                                <p class="add_text">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell large-2">
+                    <div class="card item_container darkgrey">
+                        <div class="item_img">
+                            <img src="./assets/images/product6.jpg"/>
+                        </div>
+                        <div class="card-section item_info">
+                            <div class="info">
+                                <h2 class="item_brand">Easy Groceries</h2>
+                                <h2 class="item_name">Avocado</h2>
+                                <p class="item_desc">Fresh, Avocado from garden of eden.</p>
+                                <h3 class="item_price">$2<span>/Each</span></h3>
+                            </div>
+                            <div class="item_count">
+                                <div class="count_down">-</div>
+                                <div class="count">1</div>
+                                <div class="count_up">+</div>
+                            </div>
+                            <div class="add_cart">
+                                <p class="add_text">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell large-2">
+                    <div class="card item_container darkgrey">
+                        <div class="item_img">
+                            <img src="./assets/images/product7.jpg"/>
+                        </div>
+                        <div class="card-section item_info">
+                            <div class="info">
+                                <h2 class="item_brand">Easy Groceries</h2>
+                                <h2 class="item_name">Cherries</h2>
+                                <p class="item_desc">Fresh and sweet, cherries from garden of eden.</p>
+                                <h3 class="item_price">$15.41<span>600-700g</span></h3>
+                            </div>
+                            <div class="item_count">
+                                <div class="count_down">-</div>
+                                <div class="count">1</div>
+                                <div class="count_up">+</div>
+                            </div>
+                            <div class="add_cart">
+                                <p class="add_text">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell large-2">
+                    <div class="card item_container darkgrey">
+                        <div class="item_img">
+                            <img src="./assets/images/product8.jpg"/>
+                        </div>
+                        <div class="card-section item_info">
+                            <div class="info">
+                                <h2 class="item_brand">Easy Groceries</h2>
+                                <h2 class="item_name">Large Cantaloupe</h2>
+                                <p class="item_desc">Fresh large cantaloupe from garden of eden.</p>
+                                <h3 class="item_price">$5.99<span>/Each</span></h3>
+                            </div>
+                            <div class="item_count">
+                                <div class="count_down">-</div>
+                                <div class="count">1</div>
+                                <div class="count_up">+</div>
+                            </div>
+                            <div class="add_cart">
+                                <p class="add_text">Add to Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x align-center">
+                <div class="cell large-3">
+                    <div class="load_more">
+                        <p class="load_text">Load More</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="grid-container cart hideAll">
+            <div class="cart_container">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell large-12 my_cart grey title">My Cart</div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <table class="hover">
+                        <thead>
+                            <tr class="cell large-12">
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="cell large-12">
+                                <td>Product 1</td>
+                                <td>Quantity Number</td>
+                                <td>$1.99</td>
+                            </tr>
+                            <tr class="cell large-12">
+                                <td>Product 1</td>
+                                <td>Quantity Number</td>
+                                <td>$1.99</td>
+                            </tr>
+                            <tr class="cell large-12">
+                                <td>Product 1</td>
+                                <td>Quantity Number</td>
+                                <td>$1.99</td>
+                            </tr>
+                            <tr class="cell large-12">
+                                <td>Product 1</td>
+                                <td>Quantity Number</td>
+                                <td>$1.99</td>
+                            </tr>
+                            <tr class="cell large-12">
+                                <td>Product 1</td>
+                                <td>Quantity Number</td>
+                                <td>$1.99</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </table>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="checkout_container cell large-4 large-offset-8 grey">
+                        <div class="sub_total">Subtotal</div>
+                        <div class="taxes">Taxes</div>
+                        <div class="total">Total</div>
+                    </div>
+                    <div class="checkout grey cell large-3 large-offset-8">Check Out</div>
+                </div>
+                <!-- <div class="grid-x newsletter align-middle grey">
+                    <div class="newsletter_info cell large-5 large-offset-1 darkgrey">Newsletter Info</div>
+                    <div class="newsletter_email cell large-4 large-offset-1 darkgrey">Newsletter Email</div>
+                </div> -->
+            </div>
+        </article>
+        <article class="grid-container information hideAll">
+            Information
+            <div class="grid-x grid-padding-x">
+                <div class="cell large-2 grey pay">Payment</div>
+            </div>
+        </article>
+        <article class="grid-container payment hideAll">
+            Payment
+            <div class="grid-x grid-padding-x">
+                <div class="cell large-2 grey confirm_pay">Confirm Payment</div>
+            </div>
+        </article>
+        <article class="grid-container confirmation hideAll">
+            Confirmation
+            <div class="grid-x grid-padding-x">
+                <div class="cell large-2 grey home">Home</div>
+            </div>
+        </article>
+
+        <article class="sidebar">
+            <div class="grid-x newsletter align-middle grey">
+                <div class="newsletter_info cell large-6 large-offset-1">
+                    <h2 class="newsletter_text"><span>Sign Up</span> to join our emial list and to get exciting offers and special events.</h2>
+                </div>
+                <div class="newsletter_email cell large-4 large-offset-1">
+                    <div class="email">
+                        <input type="text" class="email_container" placeholder="Email Address">
+                        <input type="submit" value="submit" class="submit_container">
+                    </div>
+                </div>
+            </div>
+        </article> 
+    </main>
+
+    <footer class="footer darkgrey">
+        <div class="grid-container"></div>
+        <div class="grid-x">
+            <div class="cell large-12">
+                <p class="copyright">2021 Easy Groceries &copy;</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/vendor.js"></script>
+
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/foundation.js"></script>
+    <script src="assets/js/sammy.min.js" type="text/javascript"></script>
+    <script src="assets/js/sammy.template.js" type="text/javascript"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
